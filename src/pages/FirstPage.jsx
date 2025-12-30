@@ -9,7 +9,9 @@ const FirstPage = () => {
                        inline-flex items-center gap-2
                        px-6 py-3 rounded-lg bg-black text-white
                         font-medium hover:bg-neutral-800 transition">Porfolio</a>
-                        <a href="#Arya" className="hover:text-white transition inline-flex items-center gap-3
+                        
+                        <a href="#arya" className="hover:text-white transition inline-flex items-center gap-3
+
                        px-6 py-3 rounded-lg bg-black text-violet-500
                        text-3xl font-medium hover:bg-neutral-800 transition h-20 w-60  justify-center
                        inline-flex items-center gap-2
