@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 import Navbaar from "./components/Navbaar";
 import Home from "./pages/Home";
@@ -21,6 +22,8 @@ function App() {
         <Route path="/blogs" element={<Blogs/>} />
         <Route path="/admin" element={<AdminLayout/>}/>
       </Routes>
+
+      <SpeedInsights />
     </BrowserRouter>
   );
 }
