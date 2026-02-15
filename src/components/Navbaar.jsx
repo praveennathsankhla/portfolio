@@ -9,7 +9,7 @@ export default function Navbaar() {
 
         {/* LEFT - LOGO */}
         <a href="/home" className="text-2xl font-eagle tracking-wide cursor-pointer">
-         Praveen
+          Praveen
         </a>
 
         {/* CENTER - LINKS */}
@@ -17,6 +17,9 @@ export default function Navbaar() {
           <a href="#about" className="hover:text-black dark:hover:text-white">About</a>
           <a href="#tech" className="hover:text-black dark:hover:text-white">Skills</a>
           <a href="#projects" className="hover:text-black dark:hover:text-white">Projects</a>
+          <a href="/blogs" className="hover:text-black dark:hover:text-white">Blogs</a>
+          <a href="/articles" className="hover:text-black dark:hover:text-white">Articles</a>
+          <a href="/research" className="hover:text-black dark:hover:text-white">Research</a>
           <a href="#Contact" className="hover:text-black dark:hover:text-white">Contact</a>
         </nav>
 

@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 
-const AdminSidebar = ({activeItem,setActiveItem}) => {
-  
+const AdminSidebar = ({ activeItem, setActiveItem }) => {
+
 
   const links = [
-    { id: 1, label: "Articles" },
+    { id: 'blogs', label: "Blogs" },
+    { id: 'articles', label: "Articles" },
+    { id: 'research', label: "Research" },
     { id: 2, label: "Projects" },
-    { id: 3, label: "Blogs" },
   ];
 
   return (
